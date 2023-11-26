@@ -2,14 +2,26 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+        rel="stylesheet"
+    />
+
     <title>Halaman Profil Bandung</title>
 </head>
 <body>
     <header>
-        <h1>Bandung</h1>
-        <p>
-            Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.
-        </p>
+        <div class="jumbotron">
+            <h1>Bandung</h1>
+            <p>
+                Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.
+            </p>
+        </div>
 
         <nav>
             <ul>
@@ -22,7 +34,7 @@
 
     <main>
         <div id="content">
-            <article id="sejarah">
+            <article id="sejarah" class="card">
                 <h2>Sejarah</h2>
                 <img src="assets/image/history.jpg" alt="Sejarah" />
                 <p>
@@ -33,7 +45,7 @@
                 </p>
             </article>
 
-            <article id="geografis">
+            <article id="geografis" class="card">
                 <h2>Geografis</h2>
                 <img src="assets/image/geografis.jpg" alt="Geografis" />
                 <p>
@@ -44,7 +56,7 @@
                 </p>
             </article>
 
-            <article id="wisata">
+            <article id="wisata" class="card">
                 <h2>Wisata</h2>
                 <p>
                     Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam menikmati liburan akhir pekan terutama dari masyarakat yang berasal dari Jakarta sekitarnya. Selain menjadi kota wisata belanja, kota Bandung juga dikenal dengan sejumlah besar bangunan lama berarsitektur peninggalan Belanda.
@@ -69,12 +81,12 @@
         </div>
         
         <aside>
-            <article>
+            <article class="profile card">
                 <header>
                     <h2>Kota Bandung</h2>
                     <p>Kota Kembang Paris van Java</p>
                     <figure>
-                        <img src="assets/image/bandung-badge.png" />
+                        <img src="assets/image/bandung-badge.png" class="featured-image" />
                         <figcaption>Lambang</figcaption>
                     </figure>
                 </header>
